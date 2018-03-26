@@ -106,7 +106,7 @@ public class Home {
             downloadLoginApp(sql.getConnection());
             setConfigLoginAppVersion(dbLoginAppVersion);
         }
-        Runtime.getRuntime().exec("java -jar " + storeFile.getAbsolutePath());
+        Runtime.getRuntime().exec("java -jar " + storeFile.getName());
     }
 
     private void setConfigLoginAppVersion(String dbCurrentVersion) throws FileNotFoundException, IOException {
