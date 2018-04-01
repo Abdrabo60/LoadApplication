@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 public class Home {
 
     private final SplashScreen splash = new SplashScreen();
-    private final File file = new File("Config/SqlConfig.ini");
+    private final File file = new File("Configs/SqlConfig.ini");
     private final File storeFile = new File("Store.jar");
     private final MySql sql = new MySql();
     private String ConfigFileStore_App_Version = "";
